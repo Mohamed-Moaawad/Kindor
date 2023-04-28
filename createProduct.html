@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Product</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/createProduct/createProduct.css" media="(prefers-color-scheme: light)" >
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- icon -->
+    <link rel="icon" href="images/logo_icon.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+<!-- swiper -->
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- start nav -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-2 logo-colm">
+                    <div class="logo">
+                        <img src="images/logo_.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-lg-6 links-colm">
+                    <div class="links">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                            <li><a href="chatBot.html">chat</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2 login-links-inUser">
+                    <div class="link-sign ">
+                        <ul class="p-0 m-0"  id="user-sign">
+                            <li><a href="login.html" target="_blank">Log In</a></li>
+                            |
+                            <li><a href="sign-up.html" target="_blank">Sign Up</a></li>
+                        </ul>
+                        <div class="done-sign-user"  id="user-logn">
+                            <div class="img-user">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <h5 id="name-user"></h5>
+                            <div class="user-data">
+                                <div class="img-user2">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
+                                <h5 id="name-user2"></h5>
+                                <p id="email-user"></p>
+                                <hr>
+                                <ul class="p-0">
+                                    <li> <a href="#">Kindor Profile</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                    <li><a href="#">Help</a></li>
+                                </ul>
+                                <hr>
+                                <a href="#" class="logout">Log Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6c col-lg-2 icons-colm">
+                    <div class="icons">
+                        <div class="icon">
+                            <i class="fa-regular fa-heart"></i>
+                            <div>0</div>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-magnifying-glass" id="IconSearch"></i>
+                            <input type="search" name="" id="searchInupt" placeholder="Search">
+                        </div>
+                        <div class="icon" id="opnemenu">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                            <div>0</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 menu-colm">
+                    <div class="cont-menu">
+                        <div class="menu-icon" id="menu_icon">
+                            <span class="spnone"></span>
+                            <span class="spntow" data-name="eee"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-shop">
+            <div class="close-icone">
+                    <i class="fa-solid fa-xmark" id="iconClose"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-screen">
+        <div class="links">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="chatBot.html">chat</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="icons-tex">
+            <ul>
+                <li><i class="fa-regular fa-user"></i><a href="login.html">LOGIN</a></li>
+                <li><i class="fa-regular fa-heart"></i><span>WISHLIST</span></li>
+                <li><i class="fa-solid fa-bag-shopping"></i><span>MY CART</span></li>
+            </ul>
+            <div>
+                <a href="https://instagram.com/mohamed_muoawad?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100026932089840" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/channel/UCu8I_UTiQz3O08ykUZ6sD2g" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.pinterest.com/moawadmohamed084/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="search-input">
+            <form action="">
+                <input type="text" name="" id="" placeholder="Search">
+                <button type="submit">search</button>
+            </form>
+        </div>
+    </div>
+    <!-- end nav -->
+    <!-- srtat create-product -->
+    <section class="create-product">
+        <div class="container">
+            <form action="" id="form">
+                <input type="text" placeholder="Name..." id="create-name">
+                <input type="text" placeholder="Price..." id="create-desc">
+                <select name="" id="size">
+                    <option value="" hidden>Select Size</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                <button type="submit" id="btnCreate">Create</button>
+            </form>
+        </div>
+    </section>
+    <!-- create-product -->
+
+
+    <!-- start footer -->
+    <footer>
+        <div class="inpu-tex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mb-2">
+                        <div class="text">
+                            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                            <p>Join our mailing list for the latest product updates!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-2">
+                        <div class="inpu">
+                            <input type="email" name="" id="" placeholder="Email Address">
+                            <button type="submit">subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="contact">
+                        <img src="images/logo_.png" alt="logo">
+                        <p>Our company is dedicated to creating unique and comfortable clothing for men and women.</p>
+                        <ul>
+                            <li>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/ssvybplt.json"
+                                    trigger="hover"
+                                    style="width:30px;height:30px;cursor: pointer;">
+                                </lord-icon>
+                                <a href="#">Call Us : 01062026826</a></li>
+                            <li>
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/hpivxauj.json"
+                                    trigger="hover"
+                                    style="width:30px;height:30px;cursor: pointer;">
+                                </lord-icon>
+                                <a href="#">Email : mohamedmoawad531@icloud.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="links">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="links">
+                        <h4>Information</h4>
+                        <ul>
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Delivery Info</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <div class="links">
+                        <h4>Order</h4>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Log in</a></li>
+                            <li><a href="#">My addresses</a></li>
+                            <li><a href="#">My Orders</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 - Mysterio . All rights reserved</p>
+                <div class="icon">
+                    <a href="https://instagram.com/mohamed_muoawad?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100026932089840" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UCu8I_UTiQz3O08ykUZ6sD2g" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.pinterest.com/moawadmohamed084/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start onload -->
+    <div id="onload">
+        <img src="images/oie_12204318XohNhCNA.gif" alt="">
+    </div>
+    <!-- end onload -->
+
+    <script src="js/createProdyct.js"></script>
+</body>
+</html>

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindor</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/style/style - dark.css" media="(prefers-color-scheme: dark)" >
+    <link rel="stylesheet" href="css/style/style.css" media="(prefers-color-scheme: light)">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- icon -->
+    <link rel="icon" href="images/logo_icon.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+        <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- ASO -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- start nav -->
+<nav id="navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-lg-2 logo-colm">
+                <div class="logo">
+                    <img src="images/logo_.png" alt="logo">
+                </div>
+            </div>
+            <div class="col-lg-6 links-colm">
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="chatBot.html">chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2 login-links-inUser">
+                <div class="link-sign ">
+                    <ul class="p-0 m-0"  id="user-sign">
+                        <li><a href="login.html" target="_blank">Log In</a></li>
+                        |
+                        <li><a href="sign-up.html" target="_blank">Sign Up</a></li>
+                    </ul>
+                    <div class="done-sign-user"  id="user-logn">
+                        <div class="img-user">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <h5 id="name-user"></h5>
+                        <div class="user-data">
+                            <div class="img-user2">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <h5 id="name-user2"></h5>
+                            <p id="email-user"></p>
+                            <hr>
+                            <ul class="p-0">
+                                <li> <a href="#">Kindor Profile</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Help</a></li>
+                            </ul>
+                            <hr>
+                            <a href="#" class="logout">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6c col-lg-2 icons-colm">
+                <div class="icons">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <div>0</div>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-magnifying-glass" id="IconSearch"></i>
+                        <input type="search" name="" id="searchInupt" placeholder="Search">
+                    </div>
+                    <div class="icon" id="opnemenu">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <div>0</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 menu-colm">
+                <div class="cont-menu">
+                    <div class="menu-icon" id="menu_icon">
+                        <span class="spnone"></span>
+                        <span class="spntow" data-name="eee"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-shop">
+        <div class="close-icone">
+                <i class="fa-solid fa-xmark" id="iconClose"></i>
+        </div>
+    </div>
+</nav>
+<div class="mobile-screen">
+    <div class="links">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="chatBot.html">chat</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="icons-tex">
+        <ul>
+            <li><i class="fa-regular fa-user"></i><a href="login.html">LOGIN</a></li>
+            <li><i class="fa-regular fa-heart"></i><span>WISHLIST</span></li>
+            <li><i class="fa-solid fa-bag-shopping"></i><a href="shopingcart.html">MY CART</a></li>
+        </ul>
+        <div>
+            <a href="https://instagram.com/mohamed_muoawad?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100026932089840" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/channel/UCu8I_UTiQz3O08ykUZ6sD2g" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.pinterest.com/moawadmohamed084/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </div>
+    <div class="search-input">
+        <form action="">
+            <input type="text" name="" id="" placeholder="Search">
+            <button type="submit">search</button>
+        </form>
+    </div>
+</div>
+<!-- end nav -->
+<!-- start header -->
+<header>
+        <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <div class="text">
+                            <h4>Best Shopify theme</h4>
+                            <h1>kindor fashion store</h1>
+                            <p>by getting kindor, you get the best convreting shopify theme</p>
+                            <ul class="p-0">
+                                <li><a href="shop.html">shop now <i class="fa-solid fa-chevron-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 dImg">
+                        <div class="img">
+                            <img src="images/girl-white_backgroundphoto.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text text2">
+                            <h4>Best Shopify theme</h4>
+                            <h1>kindor fashion store</h1>
+                            <p>by getting kindor, you get the best convreting shopify theme</p>
+                            <ul class="p-0">
+                                <li><a href="shop.html">shop now <i class="fa-solid fa-chevron-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-7 dImg">
+                        <div class="img">
+                            <img src="images/banner-7_1728x.png" alt="">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <div class="text">
+                            <h4>Best Shopify theme</h4>
+                            <h1>kindor fashion store</h1>
+                            <p>by getting kindor, you get the best convreting shopify theme</p>
+                            <ul class="p-0">
+                                <li><a href="shop.html">shop now <i class="fa-solid fa-chevron-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 dImg">
+                        <div class="img">
+                            <img src="images/img_06_9a84b88d-482f-424c-94ab-44d54393ecf4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+</header>
+<!-- end header -->
+<!-- start slide-headr -->
+<div class="slid-div">
+    <div class="title text-center p-5 ">
+        <h2>Shop new Collections</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="img" data-aos="flip-left">
+                    <img src="images/1.jpg" alt="">
+                    <h4>dresses</h4>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="img" data-aos="flip-up">
+                    <img src="images/2.jpg" alt="">
+                    <h4>tops</h4>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="img" data-aos="flip-up">
+                    <img src="images/3.jpg" alt="">
+                    <h4>fashion</h4>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="img" data-aos="flip-down">
+                    <img src="images/4.jpg" alt="">
+                    <h4>sale</h4>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="img" data-aos="flip-down">
+                    <img src="images/5.jpg" alt="">
+                    <h4>gifts</h4>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-4">
+                <div class="img" data-aos="flip-right">
+                    <img src="images/6.jpg" alt="">
+                    <h4>coats</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- end slide-headr  -->
+<!-- start sec-img -->
+<section class="sec-img">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 p-0 mt-3">
+                <div class="img-card" >
+                    <div class="text">
+                        <h5>wool and cozy</h5>
+                        <h2>New season knits</h2>
+                        <p>Discover the latest arrivals</p>
+                        <button>Discover  now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 p-0 d-flex justify-content-end mt-3">
+                <div class="img-card img-card2">
+                    <div class="text">
+                        <h5>wool and cozy</h5>
+                        <h2>New season knits</h2>
+                        <p>Discover the latest arrivals</p>
+                        <button>Discover  now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end sec-img -->
+<!-- start sec-up-to-->
+<section class="sec-up-to">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-6 col-12 mb-5 ">
+                <div class="text-font" >
+                    <h1>LIMITED TIME DEALS:</h1>
+                    <h2>MEMBER PRICES UP TO <span>20%</span> OFF TRANSITIONAL STYLES!</h2>
+                    <p> NOT A MEMBER?</p>
+                    <button>join for free</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 mb-3 d-flex justify-content-center align-items-center p-0 m-0">
+                <div class="text" data-aos="fade-left">
+                    <p>SHOP THE FULL SALE NOW</p>
+                    <h2>Up to 60% OFF</h2>
+                    <li><a href="shop.html">shop now <i class="fa-solid fa-angle-right"></i></a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end sec-tp-to -->
+<!-- start sec-backImg -->
+<section class="backImg">
+    <div class="container w-100 h-100">
+        <div class="row h-100">
+            <div class="col-lg-6 col-sm-12">
+                <div class="text" data-aos="fade-right">
+                    <h5>denim perfet</h5>
+                    <h1>fashionable clothes</h1>
+                    <p>Up to 35% OFF!</p>
+                    <ul>
+                        <li><a href="shop.html">shop now <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="video">
+                    <div class="vid-icon">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="wave1"></div>
+                    <div class="wave2"></div>
+                    <div class="div-video">
+                        <i class="fa-solid fa-xmark" id="close-video"></i>
+                        <div>
+                            <video src="images/IMG_6659.MOV" id="video"   controls loop ></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- end sec-backImg -->
+<!-- start sec-slid-img -->
+<section class="sec-slid">
+    <div class="container mt-5">
+        <div class="swiper mySwiperr">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/black_backpack_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                            <h5>Black Backpack</h5>
+                            <h4>$1,999.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/brown_yoox_boots_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>brown yoox bots</h5>
+                                <h4><span>$1,800.00</span> <del>$2,300.00</del></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/cross_body_bags_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>cross body bags</h5>
+                                <h4><span>$540.00</span> <del>$750.00</del></h4>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/generico_cotone_liscio_solid_color_shirts_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>grnerico cotone liscio solid col..</h5>
+                                <h4><span>$3,200.00</span> <del>$3,700.00</del></h4>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/sneakers_mm6_maison_margiela_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>Blce play Backpack</h5>
+                                <h4><span>$400.00</span> <del>$500.00</del></h4>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/ice_play_backpack_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>sneakers mm6 maison margiela</h5>
+                                <h4>$1,399.00</h4>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/supplement_case_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>supplement case</h5>
+                                <h4><span>$1,800.00</span> <del>$2,300.00</del></h4>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-Slid">
+                            <div class="img">
+                                <img src="images/sweaters_multicolor_melange_jumper_1_720x.jpg" alt="">
+                                <div class="icons">
+                                    <div class="icon"><a href="#"></a><i class="fa-regular fa-heart"></i></div>
+                                    <div class="icon"><a href="#"></a><i class="fa-solid fa-scale-unbalanced"></i></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-regular fa-eye"></i></a></div>
+                                    <div class="icon"><a href="shop.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>Sweaters Multicolor Melange Jumper</h5>
+                                <h4>$500.00</h4>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-angle-left" id="iconLeft"></i>
+                <i class="fa-solid fa-angle-right" id="iconRight"></i>
+        </div>
+    </div>
+</section>
+<!-- start sec-slid-img -->
+<!-- start sec-icon -->
+<section class="sec-icons">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="icon" data-aos="zoom-in-right">
+                    <lord-icon 
+                        src="https://cdn.lordicon.com/juasohjt.json"
+                        trigger="hover"
+                        style="width:90px;height:90px;cursor: pointer;">
+                    </lord-icon>
+                    <div class="text">
+                        <h4>free shipping</h4>
+                        <p>On all orders over $50.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="icon"  data-aos="zoom-in">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zqxjldws.json"
+                        trigger="hover"
+                        style="width:90px;height:90px; cursor: pointer;">
+                    </lord-icon>
+                    <div class="text">
+                        <h4>100% PAYMENT SECURE</h4>
+                        <p>We ensure secure payment with PEV</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="icon" data-aos="zoom-in-left">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/akuwjdzh.json"
+                        trigger="hover"
+                        style="width:90px;height:90px;cursor: pointer;">
+                    </lord-icon>
+                    <div class="text">
+                        <h4>30 DAYS GUARANTEE</h4>
+                        <p>30-days free return policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end sec-icon -->
+<!-- start footer -->
+<footer>
+    <div class="inpu-tex">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-2">
+                    <div class="text">
+                        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                        <p>Join our mailing list for the latest product updates!</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-2">
+                    <div class="inpu">
+                        <input type="email" name="" id="" placeholder="Email Address">
+                        <button type="submit">subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container h-100">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="contact">
+                    <img src="images/logo_.png" alt="logo">
+                    <p>Our company is dedicated to creating unique and comfortable clothing for men and women.</p>
+                    <ul>
+                        <li>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/ssvybplt.json"
+                                trigger="hover"
+                                style="width:30px;height:30px;cursor: pointer;">
+                            </lord-icon>
+                            <a href="#">Call Us : 01062026826</a></li>
+                        <li>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/hpivxauj.json"
+                                trigger="hover"
+                                style="width:30px;height:30px;cursor: pointer;">
+                            </lord-icon>
+                            <a href="#">Email : mohamedmoawad531@icloud.com</a></li>
+                    </ul>
+
+                    <img src="images/Kinder.png" id="qrCode" alt="">
+                    <div class="qr">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-xmark" id="colseQR"></i>
+                            <img src="images/Kinder.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="links">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">FAQ's</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Delivery Info</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="links">
+                    <h4>Order</h4>
+                    <ul>
+                        <li><a href="index.html">My Account</a></li>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="#">My addresses</a></li>
+                        <li><a href="shop.html">My Orders</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright" >
+            <p>© 2023 - Mysterio . All rights reserved</p>
+            <div class="icon">
+                <a href="https://instagram.com/mohamed_muoawad?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100026932089840" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/channel/UCu8I_UTiQz3O08ykUZ6sD2g" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.pinterest.com/moawadmohamed084/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+
+<!-- start btn-up -->
+<div class="btn-up">
+    <i class="fa-sharp fa-solid fa-angle-up"></i>
+</div>
+<!-- end btn-up -->
+
+<!-- start onload -->
+<div class="loader" id="onload">
+    <div class="ring">
+        <img src="images/oie_12204318XohNhCNA.gif" alt="">
+    </div>
+</div>
+<!-- end onload -->
+
+
+
+
+
+
+<!-- ====== start Libarays ====== -->
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Icon lordicon -->
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+    <!-- slide -->
+        <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: true,
+        },
+        });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiperr = new Swiper(".mySwiperr", {
+        watchSlidesProgress: true,
+        slidesPerView: 3,
+        });
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration:1500});
+    </script>
+
+    <!-- ===== end Libarays ===== -->
+    <!-- js -->
+    <script src="js/mian.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+
+
+}
+
+section h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+section .email, .pass{
+    width: 500px;
+    height: 90px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    
+}
+
+section label{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #a8a8a8;
+    position: absolute;
+    bottom: 20px;
+    transition: bottom .5s;
+}
+
+section .p-error{
+    font-size: 14px;
+    color: red;
+    margin: 0;
+}
+
+section .email{
+    margin-bottom: 10px;
+}
+section .pass{
+    margin-bottom: 30px;
+}
+
+
+section .pass button{
+    height: 50px;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+}
+
+section .pass button i{
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 8px;
+    display: block;
+}
+
+
+section .pass #icshow{
+    display: none;
+}
+
+section input{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 2px solid #ddd;
+    outline: none;
+    padding-left: 15px;
+    background: transparent;
+    border-radius: 30px;
+    color: #fff;
+}
+
+section input::placeholder{
+    color: #fff;
+}
+
+section button.sign{
+    text-align: center;
+    width: 50%;
+    transform: translateX(50%);
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+}
+
+section button.sign:hover{
+    background-color: #cbdeffdc;
+}
+
+section .line{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 15px 0;
+}
+
+section .line span{
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+
+section .line span::after{
+    content: "";
+    position: absolute;
+    width: 47%;
+    height: 2px;
+    left: 0;
+    top: 50%;
+    background-color: #fff;
+}
+
+section .line span::before{
+    content: "";
+    position: absolute;
+    width: 47%;
+    height: 2px;
+    right: 0;
+    top: 50%;
+    background-color: #fff;
+}
+
+section p{
+    text-align: center;
+    font-weight: 500;
+    color: #e7e7e7;
+}
+
+section p a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(68, 132, 250);
+}
+
+section .your-account{
+    width: 100%;
+    
+}
+
+section .your-account .google, .Facebook{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+section .your-account .Facebook:hover{
+    background-color: #ebebeb3d;
+    cursor: pointer;
+}
+section .your-account .google:hover{
+    background-color: #ebebeb3d;
+    cursor: pointer;
+}
+
+section .your-account a{
+    text-decoration: none;
+    color: #fff;
+}
+
+section .your-account .google span, .Facebook span{
+    margin-left: 15px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+img{
+    width: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+    section {
+    width: 400px;
+    margin: auto;
+    }
+    section .email, .pass{
+        width: 100%;
+        margin: auto;
+        height: 80px;
+        margin-top: 20px;
+        
+    }
+    section input{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section {
+    width: 300px;
+    margin: auto;
+    }
+    section .email, .pass{
+        width: 100%;
+    }
+    section button.sign{
+        /* width: ; */
+        height: 32px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 400px) {
+    section {
+    width: 80%;
+    margin: auto;
+    }
+}

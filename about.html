@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/about/about.css"  media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="css/about/about - dark.css" media="(prefers-color-scheme: dark)">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+        <!-- swiper -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- ASO -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- start nav -->
+<nav id="navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-lg-2 logo-colm">
+                <div class="logo">
+                    <img src="images/logo_.png" alt="logo">
+                </div>
+            </div>
+            <div class="col-lg-6 links-colm">
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="chatBot.html">chat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2 login-links-inUser">
+                <div class="link-sign ">
+                    <ul class="p-0 m-0"  id="user-sign">
+                        <li><a href="login.html" target="_blank">Log In</a></li>
+                        |
+                        <li><a href="sign-up.html" target="_blank">Sign Up</a></li>
+                    </ul>
+                    <div class="done-sign-user"  id="user-logn">
+                        <div class="img-user">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <h5 id="name-user"></h5>
+                        <div class="user-data">
+                            <div class="img-user2">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <h5 id="name-user2"></h5>
+                            <p id="email-user"></p>
+                            <hr>
+                            <ul class="p-0">
+                                <li> <a href="#">Kindor Profile</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Help</a></li>
+                            </ul>
+                            <hr>
+                            <a href="#" class="logout">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6c col-lg-2 icons-colm">
+                <div class="icons">
+                    <div class="icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <div>0</div>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-magnifying-glass" id="IconSearch"></i>
+                        <input type="search" name="" id="searchInupt" placeholder="Search">
+                    </div>
+                    <div class="icon" id="opnemenu">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <div>0</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 menu-colm">
+                <div class="cont-menu">
+                    <div class="menu-icon" id="menu_icon">
+                        <span class="spnone"></span>
+                        <span class="spntow" data-name="eee"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-shop">
+        <div class="close-icone">
+                <i class="fa-solid fa-xmark" id="iconClose"></i>
+        </div>
+    </div>
+</nav>
+<div class="mobile-screen">
+    <div class="links">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="chatBot.html">chat</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="icons-tex">
+        <ul>
+            <li><i class="fa-regular fa-user"></i><a href="login.html">LOGIN</a></li>
+            <li><i class="fa-regular fa-heart"></i><span>WISHLIST</span></li>
+            <li><i class="fa-solid fa-bag-shopping"></i><a href="shopingcart.html">MY CART</a></li>
+        </ul>
+        <div>
+            <a href="https://instagram.com/mohamed_muoawad?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100026932089840" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/channel/UCu8I_UTiQz3O08ykUZ6sD2g" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.pinterest.com/moawadmohamed084/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </div>
+    <div class="search-input">
+        <form action="">
+            <input type="text" name="" id="" placeholder="Search">
+            <button type="submit">search</button>
+        </form>
+    </div>
+</div>
+<!-- end nav -->
+<!-- strat head -->
+<div class="head">
+    <div class="container">
+        <div>
+            <span>home</span>
+            //
+            <span>about us</span>
+        </div>
+    </div>
+    
+</div>
+<!-- end head -->
+<!-- start about-us -->
+<section class="about-us">
+    <div class="container">
+        <div class="row mb-5 ">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="img">
+                        <img src="images/slide_1_720x.jpg" alt="">
+                    </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="text" data-aos="fade-left">
+                        <h2>about us</h2>
+                        <p>Our company is dedicated to creating unique and comfortable 
+                            clothing for men and women. Since our establishment in 2010, 
+                            Fashion's activity has extended from developing designer clothes 
+                            to training new designers and stylists at our school, participation 
+                            of our trainees at the world's leading fashion shows and writing 
+                            articles about fashion.
+                        </p>
+                    </div>
+            </div>    
+        </div>
+        <div class="row mt-5 pt-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <div class="text" data-aos="fade-right">
+                        <h2>Our Story</h2>
+                        <p>Our store is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience.
+                            <br>
+                            <br>
+                            Forget about struggling to do everything at once: taking care of the family, running your business, walking your dog, cleaning the house, doing the shopping, etc.
+                        </p>
+                    </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12  ">
+                <div class="img">
+                    <img src="images/slide_2_720x.jpg" alt="">
+                </div>
+        </div>    
+        </div>
+    </div>
+</section>
+<!-- end about-us -->
+
+<!-- start slide -->
+<section class="slide">
+    <div class="container">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="iconleft iconpos">
+            <i class="fa-sharp fa-solid fa-chevron-left "></i>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="section-card">
+                    <h3>Testimonials</h3>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam sit
+                        leo. Diam, luctus vitae integer tortor."
+                    </p>
+                    <div>
+                        <img src="images/author-1_70x70_crop_center.jpg" alt="">
+                        <h6>Auther's name <br> <span>Auther's info</span></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="section-card">
+                    <h3>Testimonials</h3>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam sit
+                        leo. Diam, luctus vitae integer tortor."
+                    </p>
+                    <div>
+                        <h6>Auther's name <br> <span>Auther's info</span></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="section-card">
+                    <h3>Testimonials</h3>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nunc, sed odio id nullam sit
+                        leo. Diam, luctus vitae integer tortor."
+                    </p>
+                    <div>
+                        <img src="images/author-2_70x70_crop_center.jpg" alt="">
+                        <h6>Auther's name <br> <span>Auther's info</span></h6>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="iconright iconpos">
+            <i class="fa-sharp fa-solid fa-chevron-right "></i>
+        </div>
+    </div>
+    
+    </div>
+</section>
+<!-- end slide -->
+
+<!-- start footer -->
+<footer>
+    <div class="inpu-tex">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-2">
+                    <div class="text">
+                        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                        <p>Join our mailing list for the latest product updates!</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-2">
+                    <div class="inpu">
+                        <input type="email" name="" id="" placeholder="Email Address">
+                        <button type="submit">subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container h-100">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="contact">
+                    <img src="images/logo_.png" alt="logo">
+                    <p>Our company is dedicated to creating unique and comfortable clothing for men and women.</p>
+                    <ul>
+                        <li>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/ssvybplt.json"
+                                trigger="hover"
+                                style="width:30px;height:30px;cursor: pointer;">
+                            </lord-icon>
+                            <a href="#">Call Us : 01062026826</a></li>
+                        <li>
+                            <lord-icon
+                                src="https://cdn.lordicon.com/hpivxauj.json"
+                                trigger="hover"
+                                style="width:30px;height:30px;cursor: pointer;">
+                            </lord-icon>
+                            <a href="#">Email : mohamedmoawad531@icloud.com</a></li>
+                    </ul>
+                    <img src="images/Kinder.png" id="qrCode" alt="">
+                    <div class="qr">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-xmark" id="colseQR"></i>
+                            <img src="images/Kinder.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="links">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">FAQ's</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Delivery Info</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                <div class="links">
+                    <h4>Order</h4>
+                    <ul>
+                        <li><a href="index.html">My Account</a></li>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="#">My addresses</a></li>
+                        <li><a href="shop.html">My Orders</a></li>
+                        <li><a href="shop.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 - Mysterio . All rights reserved</p>
+            <div class="icon">
+                <a href="https://instagram.com/mohamed_muoawad?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100026932089840" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/channel/UCu8I_UTiQz3O08ykUZ6sD2g" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.pinterest.com/moawadmohamed084/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- start btn-up -->
+<div class="btn-up">
+    <i class="fa-sharp fa-solid fa-angle-up"></i>
+</div>
+<!-- end btn-up -->
+
+<!-- start onload -->
+<div class="loader" id="onload">
+    <div class="ring">
+        <img src="images/oie_12204318XohNhCNA.gif" alt="">
+    </div>
+</div>
+<!-- end onload -->
+
+
+    <script src="js/about.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Icon lordicon -->
+        <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+        <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        grabCursor: true,
+        effect: "creative",
+        creativeEffect: {
+            prev: {
+            shadow: true,
+            translate: [0, 0, -400],
+            },
+            next: {
+            translate: ["100%", 0, 0],
+            },
+        },
+        });
+        </script>
+
+           <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration:1500});
+    </script>
+</body>
+</html>
