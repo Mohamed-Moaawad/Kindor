@@ -251,6 +251,26 @@ let products = [
         des: '-25%',
         qty: 1
     },
+    {
+        id:12,
+        image:'images/oversized_faux_shearling_coat_1_720x.jpg' ,
+        image2:'images/oversized_faux_shearling_coat_2_720x.jpg' ,
+        title: 'High Neck Sweater Woman',
+        price: '$150.00',
+        del: '$180.00',
+        des: '-25%',
+        qty: 1
+    },
+    {
+        id:12,
+        image:'images/oversized_faux_shearling_coat_1_720x.jpg' ,
+        image2:'images/oversized_faux_shearling_coat_2_720x.jpg' ,
+        title: 'High Neck Sweater Woman',
+        price: '$150.00',
+        del: '$180.00',
+        des: '-25%',
+        qty: 1
+    },
 ];
 //=========
 
@@ -263,7 +283,8 @@ function showProductsUI(){
             return`
             <div class="card-product card-product1" id="card-product">
                             <div class="img overImg" id="">
-                                <a onclick="detailsCart(${item.id})"><img src="${item.image}" alt="" class="ImgProducts"></a>
+                                <a onclick="detailsCart(${item.id})">
+                                <img src="${item.image}" alt="" class="ImgProducts"></a>
                                 <span class="red">${item.des}</span>
                                 <span class="black">new</span>
                                 <div class="icon icon1">

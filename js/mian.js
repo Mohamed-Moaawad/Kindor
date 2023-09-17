@@ -121,7 +121,7 @@ colseQR.addEventListener('click', function(){
     qr.style.display = 'none'
 })
 
-
+document.querySelector
 
 //========== start btn-up =================
 
